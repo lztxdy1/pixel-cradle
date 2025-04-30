@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>morningdew</artifactId>
+        <artifactId>pixelcradle</artifactId>
         <groupId>pixelcradle</groupId>
         <version>3.8.9</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>morningdew-admin</artifactId>
+    <artifactId>pixelcradle-admin</artifactId>
 
     <description>
         web服务入口
@@ -37,28 +37,28 @@
             <version>1.6.2</version>
         </dependency>
 
-         <!-- Mysql驱动包 -->
         <dependency>
             <groupId>mysql</groupId>
+            <!-- Mysql驱动包 -->
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
         <!-- 核心模块-->
         <dependency>
             <groupId>pixelcradle</groupId>
-            <artifactId>morningdew-framework</artifactId>
+            <artifactId>pixelcradle-framework</artifactId>
         </dependency>
 
         <!-- 定时任务-->
         <dependency>
             <groupId>pixelcradle</groupId>
-            <artifactId>morningdew-quartz</artifactId>
+            <artifactId>pixelcradle-quartz</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
             <groupId>pixelcradle</groupId>
-            <artifactId>morningdew-generator</artifactId>
+            <artifactId>pixelcradle-generator</artifactId>
         </dependency>
 
     </dependencies>

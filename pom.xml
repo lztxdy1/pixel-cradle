@@ -5,15 +5,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	
     <groupId>pixelcradle</groupId>
-    <artifactId>morningdew</artifactId>
+    <artifactId>pixelcradle</artifactId>
     <version>3.8.9</version>
 
     <name>pixelcradle</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>​​像素摇篮系统</description>
+    <url>https://www.halo168.top</url>
+    <description>像素摇篮系统</description>
     
     <properties>
-        <morningdew.version>3.8.9</morningdew.version>
+        <pixelcradle.version>3.8.9</pixelcradle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -186,36 +186,36 @@
             <!-- 定时任务-->
             <dependency>
                 <groupId>pixelcradle</groupId>
-                <artifactId>morningdew-quartz</artifactId>
-                <version>${morningdew.version}</version>
+                <artifactId>pixelcradle-quartz</artifactId>
+                <version>${pixelcradle.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
                 <groupId>pixelcradle</groupId>
-                <artifactId>morningdew-generator</artifactId>
-                <version>${morningdew.version}</version>
+                <artifactId>pixelcradle-generator</artifactId>
+                <version>${pixelcradle.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
                 <groupId>pixelcradle</groupId>
-                <artifactId>morningdew-framework</artifactId>
-                <version>${morningdew.version}</version>
+                <artifactId>pixelcradle-framework</artifactId>
+                <version>${pixelcradle.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
                 <groupId>pixelcradle</groupId>
-                <artifactId>morningdew-system</artifactId>
-                <version>${morningdew.version}</version>
+                <artifactId>pixelcradle-system</artifactId>
+                <version>${pixelcradle.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
                 <groupId>pixelcradle</groupId>
-                <artifactId>morningdew-common</artifactId>
-                <version>${morningdew.version}</version>
+                <artifactId>pixelcradle-common</artifactId>
+                <version>${pixelcradle.version}</version>
             </dependency>
 
         </dependencies>
